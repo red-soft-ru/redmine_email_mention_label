@@ -4,7 +4,7 @@
 
 This plugin adds a small label `[Mention]` to email subject when a user was mentioned:
 
-![Preview](https://raw.githubusercontent.com/red-soft-ru/redmine_email_mention_label/assets/ksnip_20230428-131659.png?token=GHSAT0AAAAAACBQIKXR5RWEY7BULAE5MOWUZEUJWZQ)
+![Preview](https://raw.githubusercontent.com/red-soft-ru/redmine_email_mention_label/144506d1cb9b20c3a35caf4d1e93a5d89ea115df/ksnip_20230428-131659.png)
 
 Currently works only for `Issues` and `Wikis`.
 
