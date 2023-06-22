@@ -4,7 +4,7 @@
 
 This plugin adds a small label `[Mention]` to email subject when a user was mentioned:
 
-![Preview](https://your-image-url.type)
+![Preview](https://raw.githubusercontent.com/red-soft-ru/redmine_email_mention_label/assets/ksnip_20230428-131659.png?token=GHSAT0AAAAAACBQIKXR5RWEY7BULAE5MOWUZEUJWZQ)
 
 Currently works only for `Issues` and `Wikis`.
 
@@ -30,6 +30,5 @@ rm -rf plugins/redmine_email_mention_label
 ## Running tests
 
 ```bash
-git clone https://github.com/red-soft-ru/redmine_email_mention_label.git plugins/redmine_email_mention_label
-bundle install
+bundle exec rails db:reset redmine:plugins:test RAILS_ENV=test NAME=redmine_email_mention_label
 ```
